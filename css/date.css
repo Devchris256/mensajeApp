@@ -1,0 +1,8 @@
+.date {
+  align-self: center;
+  padding-inline: .625rem;
+  padding-block: .625rem;
+  color: var(--black);
+  font: var(--body-16regular);
+  background: #E5F2FA;
+}

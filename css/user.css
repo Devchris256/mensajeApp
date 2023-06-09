@@ -1,0 +1,38 @@
+.user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-image {
+
+}
+
+.user img {
+  inline-size: 3rem;
+  block-size: 3rem;
+  border-radius: 50%;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  margin: 0;
+}
+
+.user-details span{
+  display: block;
+}
+
+.user-details :first-of-type {
+  font: var(--body-16regular);
+  text-transform: capitalize;
+  color: var(--black);
+}
+
+.user-details :last-of-type {
+  font: var(--caption-12regular);
+  text-transform: uppercase;
+  color: var(--grey);
+}

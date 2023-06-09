@@ -1,0 +1,26 @@
+@import './message.css';
+@import './date.css';
+
+.messages {
+  flex-grow: 1;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column-reverse;
+  background-color: var(--panel-background);
+  background-image: url(../img/background-image.png);
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  inline-size: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--grey);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}

@@ -1,0 +1,81 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  max-inline-size: 34.5rem;
+  padding-inline: 0.5rem;
+  padding-block: 0.5rem;
+}
+
+.message-body {
+  margin: 0;
+  color: var(--black);
+}
+
+.message-details {
+  align-self: flex-end;
+  display: flex;
+  gap: .25rem;
+}
+
+.message-date {
+  font: var(--caption-12regular);
+  color: var(--grey);
+}
+
+.message.is-sender {
+  align-self: flex-end;
+  position: relative;
+  background: var(--green-1);
+  border-radius: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.message.is-receiver {
+  align-self: flex-start;
+  position: relative;
+  background: var(--white);
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.message-status.is-seen {
+  inline-size: 1rem;
+  block-size: 1rem;
+  background: url(../icon/doble-check-blue.svg);
+  background-size: 100% 100%;
+}
+
+.message-status.is-unseen {
+  inline-size: 1rem;
+  block-size: 1rem;
+  background: url(../icon/doble-check.svg);
+  background-size: 100% 100%;
+}
+
+
+.message.is-sender::after {
+  content: '';
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 100%;
+  inline-size: .75rem;
+  block-size: .75rem;
+  background: var(--green-1);
+  border-radius: 0 .125rem 0 0;
+  clip-path: polygon(0 0, 100% 0, 100% .125rem, 0% 100%);
+}
+
+
+.message.is-receiver::before {
+  content: '';
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-end: 100%;
+  inline-size: .75rem;
+  block-size: .75rem;
+  background: var(--white);
+  border-radius: .125rem 0 0 0;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% .125rem);
+}
+
+
+

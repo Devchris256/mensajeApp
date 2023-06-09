@@ -1,0 +1,10 @@
+.buttonIcon {
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  box-sizing: content-box;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
