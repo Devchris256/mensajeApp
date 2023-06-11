@@ -4,8 +4,8 @@
   gap: 1rem;
   block-size: var(--actionsBlocksize);
   background: var(--grey-4);
-  padding-inline-start: 1rem;
-  padding-inline-end: 1rem;
+  padding-inline: 1rem;
+  padding-block: 1rem;
   position: relative;
   box-shadow: inset 0 1px 2px #66666716;
 }
@@ -29,18 +29,6 @@
   display: none;
 }
 
-.actions-text {
-  flex: 1;
-  background: var(--white);
-  border-radius: 3.125rem;
-  border: none;
-  padding-inline-start: 1.5rem;
-  padding-inline-end: 1.5rem;
-  padding-block-start: .875rem;
-  padding-block-end: .875rem;
-  font: var(--body-16regular);
-  color: var(--black);
-}
 
 
 

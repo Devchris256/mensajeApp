@@ -1,6 +1,13 @@
-@import './chat.css';
-@import './header.css';
+@import './aside.css';
+@import './ellipse.css';
+@import './layout.css';
+@import './form.css';
+@import './search.css';
+@import './chat-list.css';
+@import './dialogue.css';
+@import './status.css';
 @import './messages.css';
+@import './input.css';
 @import './actions.css';
 @import './header.css';
 @import './user.css';
@@ -10,6 +17,9 @@
   font-size: 16px;
   --headerBlocksize: 5rem;
   --actionsBlocksize: 5rem;
+  --asideInlinesize: 27.5rem;
+  --searchBlocksize: 5rem;
+  --titleBlocksize: 3.5rem;
   --fontBase: 'Inter', sans-serif;
   --black: #000000;
   --grey: #666667;

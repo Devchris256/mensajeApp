@@ -8,7 +8,7 @@
   flex-direction: column-reverse;
   background-color: var(--panel-background);
   background-image: url(../img/background-image.png);
-  padding-inline: 1rem;
+  padding-inline: 1.75rem;
   padding-block: 1rem;
   overflow-y: auto;
 }

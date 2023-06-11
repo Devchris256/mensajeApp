@@ -1,0 +1,14 @@
+.layout {
+  display: flex;
+}
+
+.layout-aside {
+  inline-size: var(--asideInlinesize);
+  flex-shrink: 0;
+  background: var(--white);
+}
+
+.layout-main {
+  flex-grow: 1;
+  background-color: var(--panel-background);
+}

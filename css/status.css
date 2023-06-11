@@ -1,0 +1,15 @@
+.status {
+  inline-size: 1rem;
+  block-size: 1rem;
+  flex-shrink: 0;
+}
+
+.status.is-seen {
+  background: url(../icon/doble-check-blue.svg);
+  background-size: 100% 100%;
+}
+
+.status.is-unseen {
+  background: url(../icon/doble-check.svg);
+  background-size: 100% 100%;
+}

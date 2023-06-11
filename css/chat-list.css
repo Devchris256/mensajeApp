@@ -1,0 +1,22 @@
+@import './chat.css';
+
+.chatList {
+  flex-grow: 1;
+  /* flex-shrink: 1; */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-family: var(--fontBase);
+  background: var(--white);
+  block-size: var(--titleBlocksize);
+  margin: 0;
+  box-sizing: border-box;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  display: none;
+}

@@ -37,20 +37,6 @@
   border-radius: 0 0.5rem 0.5rem 0.5rem;
 }
 
-.message-status.is-seen {
-  inline-size: 1rem;
-  block-size: 1rem;
-  background: url(../icon/doble-check-blue.svg);
-  background-size: 100% 100%;
-}
-
-.message-status.is-unseen {
-  inline-size: 1rem;
-  block-size: 1rem;
-  background: url(../icon/doble-check.svg);
-  background-size: 100% 100%;
-}
-
 
 .message.is-sender::after {
   content: '';

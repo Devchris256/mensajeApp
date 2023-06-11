@@ -1,0 +1,8 @@
+.search {
+  background: var(--grey-3);
+  block-size: var(--searchBlocksize);
+  box-sizing: border-box;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  flex-shrink: 0;
+}

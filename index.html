@@ -10,99 +10,308 @@
   <title>MensajeApp</title>
 </head>
 <body>
-  <div class="chat">
-    <div class="header">
-      <div class="primary">
-        <div class="user">
-          <div class="user-image">
-            <img src="./img/user-josefa.jpg" width="48" height="48" alt="Perfil de Josefa">
+  <div class="layout">
+    <div class="layout-aside">
+      <div class="aside">
+        <header class="header" aria-label="about me">
+          <div class="primary">
+            <div class="user">
+              <div class="user-image">
+                <img src="./img/user-me.jpg" width="48" height="48" alt="Tu perfil">
+              </div>
+            </div>
           </div>
-          <p class="user-details">
-            <span>josefa</span>
-            <span>en linea</span>
-          </p>
+        </header>
+        <h1 class="title">Todos los Chats</h1>
+        <div class="search">
+          <form class="form" role="search" action="">
+            <button class="buttonIcon" aria-label="buscar o iniciar nuevo chat">
+              <img src="./icon/search.svg" width="24" height="24" alt="lupa-Buscar">
+            </button>
+            <button class="buttonIcon" aria-label="Back">
+              <img src="./icon/arrow-left.svg" alt="flecha hacia atras">
+            </button>
+            <input class="input" type="search" placeholder="Busca un chat o inicia uno nuevo">
+          </form>
         </div>
-      </div>
-      <div class="secundary">
-        <button class="buttonIcon" aria-label="Buscar en la conversación" title="Buscar en la conversación">
-          <img src="./icon/search.svg" width="24" height="24" alt="icono de lupa">
-        </button>
+        <div class="chatList">
+          <a class="chat" href="/" aria-label="abrir chat con Josefina">
+            <div class="chat-primary">
+              <div class="chat-image">
+                <img src="./img/user-josefa.jpg" width="48" height="48" alt="perfil de Josefina">
+              </div>
+            </div>
+            <div class="chat-secundary">
+              <div class="chat-details">
+                <span class="chat-name">Josefa</span>
+                <span class="chat-date">viernes</span>
+              </div>
+              <div class="chat-info">
+                <span class="status is-seen"></span>
+                <span class="ellipse">
+                  <p class="chat-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore necessitatibus eligendi perferendis ut atque quas provident exercitationem dignissimos, placeat aliquam dolorum blanditiis rem, quibusdam voluptates cupiditate explicabo pariatur alias.</p>
+                </span>
+              </div>
+            </div>
+          </a>
+          <a class="chat" href="./ingrid.html" aria-label="abrir chat con ingrid">
+            <div class="chat-primary">
+              <div class="chat-image">
+                <img src="./img/user-ingrid.jpg" width="48" height="48" alt="perfil de ingrid">
+              </div>
+            </div>
+            <div class="chat-secundary">
+              <div class="chat-details">
+                <span class="chat-name">Ingrid</span>
+                <span class="chat-date">viernes</span>
+              </div>
+              <div class="chat-info">
+                <span class="status is-unseen"></span>
+                <span class="ellipse">
+                  <p class="chat-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore necessitatibus eligendi perferendis ut atque quas provident exercitationem dignissimos, placeat aliquam dolorum blanditiis rem, quibusdam voluptates cupiditate explicabo pariatur alias.</p>
+                </span>
+              </div>
+            </div>
+          </a>
+          <a class="chat" href="./jan.html" aria-label="abrir chat con jan">
+            <div class="chat-primary">
+              <div class="chat-image">
+                <img src="./img/user-jan.jpg" width="48" height="48" alt="perfil de jan">
+              </div>
+            </div>
+            <div class="chat-secundary">
+              <div class="chat-details">
+                <span class="chat-name">Jan</span>
+                <span class="chat-date">viernes</span>
+              </div>
+              <div class="chat-info">
+                <span class="status is-seen"></span>
+                <span class="ellipse">
+                  <p class="chat-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore necessitatibus eligendi perferendis ut atque quas provident exercitationem dignissimos, placeat aliquam dolorum blanditiis rem, quibusdam voluptates cupiditate explicabo pariatur alias.</p>
+                </span>
+              </div>
+            </div>
+          </a>
+          <a class="chat" href="./ruben.html" aria-label="abrir chat con ruben">
+            <div class="chat-primary">
+              <div class="chat-image">
+                <img src="./img/user-ruben.jpg" width="48" height="48" alt="perfil de ruben">
+              </div>
+            </div>
+            <div class="chat-secundary">
+              <div class="chat-details">
+                <span class="chat-name">Ruben</span>
+                <span class="chat-date">viernes</span>
+              </div>
+              <div class="chat-info">
+                <span class="status is-unseen"></span>
+                <span class="ellipse">
+                  <p class="chat-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore necessitatibus eligendi perferendis ut atque quas provident exercitationem dignissimos, placeat aliquam dolorum blanditiis rem, quibusdam voluptates cupiditate explicabo pariatur alias.</p>
+                </span>
+              </div>
+            </div>
+          </a>
+          <a class="chat" href="./karla.html" aria-label="abrir chat con karla">
+            <div class="chat-primary">
+              <div class="chat-image">
+                <img src="./img/user-karla.jpg" width="48" height="48" alt="perfil de karla">
+              </div>
+            </div>
+            <div class="chat-secundary">
+              <div class="chat-details">
+                <span class="chat-name">Karla</span>
+                <span class="chat-date">viernes</span>
+              </div>
+              <div class="chat-info">
+                <span class="status is-seen"></span>
+                <span class="ellipse">
+                  <p class="chat-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore necessitatibus eligendi perferendis ut atque quas provident exercitationem dignissimos, placeat aliquam dolorum blanditiis rem, quibusdam voluptates cupiditate explicabo pariatur alias.</p>
+                </span>
+              </div>
+            </div>
+          </a>
+          <a class="chat" href="./rufino.html" aria-label="abrir chat con rufino">
+            <div class="chat-primary">
+              <div class="chat-image">
+                <img src="./img/user-rufino.jpg" width="48" height="48" alt="perfil de rufino">
+              </div>
+            </div>
+            <div class="chat-secundary">
+              <div class="chat-details">
+                <span class="chat-name">Rufino</span>
+                <span class="chat-date">viernes</span>
+              </div>
+              <div class="chat-info">
+                <span class="status is-seen"></span>
+                <span class="ellipse">
+                  <p class="chat-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore necessitatibus eligendi perferendis ut atque quas provident exercitationem dignissimos, placeat aliquam dolorum blanditiis rem, quibusdam voluptates cupiditate explicabo pariatur alias.</p>
+                </span>
+              </div>
+            </div>
+          </a>
+          <a class="chat" href="./mariano.html" aria-label="abrir chat con mariano">
+            <div class="chat-primary">
+              <div class="chat-image">
+                <img src="./img/user-mariano.jpg" width="48" height="48" alt="perfil de mariano">
+              </div>
+            </div>
+            <div class="chat-secundary">
+              <div class="chat-details">
+                <span class="chat-name">Mariano</span>
+                <span class="chat-date">viernes</span>
+              </div>
+              <div class="chat-info">
+                <span class="status is-seen"></span>
+                <span class="ellipse">
+                  <p class="chat-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore necessitatibus eligendi perferendis ut atque quas provident exercitationem dignissimos, placeat aliquam dolorum blanditiis rem, quibusdam voluptates cupiditate explicabo pariatur alias.</p>
+                </span>
+              </div>
+            </div>
+          </a>
+          <a class="chat" href="./karmen.html" aria-label="abrir chat con karmen">
+            <div class="chat-primary">
+              <div class="chat-image">
+                <img src="./img/user-karla.jpg" width="48" height="48" alt="perfil de karmen">
+              </div>
+            </div>
+            <div class="chat-secundary">
+              <div class="chat-details">
+                <span class="chat-name">Karmen</span>
+                <span class="chat-date">viernes</span>
+              </div>
+              <div class="chat-info">
+                <span class="status is-seen"></span>
+                <span class="ellipse">
+                  <p class="chat-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore necessitatibus
+                    eligendi perferendis ut atque quas provident exercitationem dignissimos, placeat aliquam dolorum blanditiis
+                    rem, quibusdam voluptates cupiditate explicabo pariatur alias.</p>
+                </span>
+              </div>
+            </div>
+          </a>
+          <a class="chat" href="./Luis.html" aria-label="abrir chat con Luis">
+            <div class="chat-primary">
+              <div class="chat-image">
+                <img src="./img/user-me.jpg" width="48" height="48" alt="perfil de Luis">
+              </div>
+            </div>
+            <div class="chat-secundary">
+              <div class="chat-details">
+                <span class="chat-name">Luis</span>
+                <span class="chat-date">viernes</span>
+              </div>
+              <div class="chat-info">
+                <span class="status is-seen"></span>
+                <span class="ellipse">
+                  <p class="chat-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore necessitatibus
+                    eligendi perferendis ut atque quas provident exercitationem dignissimos, placeat aliquam dolorum blanditiis
+                    rem, quibusdam voluptates cupiditate explicabo pariatur alias.</p>
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
-    <div class="messages">
-      <div class="message is-sender">
-        <p class="message-body">
-          Ok, perfecto. Ntp
-        </p>
-        <div class="message-details">
-          <span class="message-date">11:32 am</span>
-          <span class="message-status is-unseen"></span>
+    <div class="layout-main">
+      <div role="main" class="dialogue">
+        <header class="header" aria-label="Contact">
+          <div class="header-primary">
+            <button class="buttonIcon" aria-label="Retroceder">
+              <img src="./icon/arrow-left.svg" width="24" height="24" alt="flecha hacia atras">
+            </button>
+            <div class="user">
+              <div class="user-image">
+                <img src="./img/user-josefa.jpg" width="48" height="48" alt="Perfil de Josefa">
+              </div>
+              <p class="user-details">
+                <span>josefa</span>
+                <span>en linea</span>
+              </p>
+            </div>
+          </div>
+          <div class="header-secundary">
+            <button class="buttonIcon" aria-label="Buscar en la conversación" title="Buscar en la conversación">
+              <img src="./icon/search.svg" width="24" height="24" alt="icono de lupa">
+            </button>
+          </div>
+        </header>
+        <div class="messages">
+          <div class="message is-sender">
+            <p class="message-body">
+              Ok, perfecto. Ntp
+            </p>
+            <div class="message-details">
+              <span class="message-date">11:32 am</span>
+              <span class="status is-unseen"></span>
+            </div>
+          </div>
+          <div class="message is-receiver">
+            <p class="message-body">
+              Ok gracias perdón por la tardanza pero yá quedó
+            </p>
+            <div class="message-details">
+              <span class="message-date">11:29 am</span>
+            </div>
+          </div>
+          <div class="message is-sender">
+            <p class="message-body">
+              Claro. Sin problema
+            </p>
+            <div class="message-details">
+              <span class="message-date">11:26 am</span>
+              <span class="status is-seen"></span>
+            </div>
+          </div>
+          <div class="message is-receiver">
+            <p class="message-body">
+              Buenos días disculpe yá está tu cuenta abierta pero para mañana de 9 A 12 podrás recibir al técnico
+            </p>
+            <div class="message-details">
+              <span class="message-date">11:29 am</span>
+            </div>
+          </div>
+          <div class="date">
+            viernes
+          </div>
+          <div class="message is-sender">
+            <p class="message-body">
+              Claro: <a target="_blank" href="https://github.com/Devchris256">https://github.com/Devchris256</a>
+            </p>
+            <div class="message-details">
+              <span class="message-date">08:28 am</span>
+              <span class="status is-seen"></span>
+            </div>
+          </div>
+          <div class="message is-receiver">
+            <p class="message-body">
+              Me puedes mandar tu Github por favor?
+            </p>
+            <div class="message-details">
+              <span class="message-date">11:29 am</span>
+            </div>
+          </div>
+          <div class="date">
+            jueves
+          </div>
         </div>
-      </div>
-      <div class="message is-receiver">
-        <p class="message-body">
-          Ok gracias perdón por la tardanza pero yá quedó
-        </p>
-        <div class="message-details">
-          <span class="message-date">11:29 am</span>
-        </div>
-      </div>
-      <div class="message is-sender">
-        <p class="message-body">
-          Claro. Sin problema
-        </p>
-        <div class="message-details">
-          <span class="message-date">11:26 am</span>
-          <span class="message-status is-seen"></span>
-        </div>
-      </div>
-      <div class="message is-receiver">
-        <p class="message-body">
-          Buenos días disculpe yá está tu cuenta abierta pero para mañana de 9 A 12 podrás recibir al técnico
-        </p>
-        <div class="message-details">
-          <span class="message-date">11:29 am</span>
-        </div>
-      </div>
-      <div class="date">
-        viernes
-      </div>
-      <div class="message is-sender">
-        <p class="message-body">
-          Claro: <a target="_blank" href="https://github.com/Devchris256">https://github.com/Devchris256</a>
-        </p>
-        <div class="message-details">
-          <span class="message-date">08:28 am</span>
-          <span class="message-status is-seen"></span>
-        </div>
-      </div>
-      <div class="message is-receiver">
-        <p class="message-body">
-          Me puedes mandar tu Github por favor?
-        </p>
-        <div class="message-details">
-          <span class="message-date">11:29 am</span>
-        </div>
-      </div>
-      <div class="date">
-        jueves
-      </div>
-    </div>
-    <div class="actions">
-      <button class="buttonIcon" aria-label="agregar iconos">
-        <img src="./icon/smile.svg" width="24" height="24" alt="icono de carita feliz">
-      </button>
-      <button class="buttonIcon" aria-label="Adjuntar">
-        <img src="./icon/paperclip.svg" width="24" height="24" alt="icono paperclip">
-      </button>
-      <div class="actions-send">
-        <input  class="actions-text" type="text" placeholder="Escribe un mensaje">
-        <button class="buttonIcon is-send" aria-label="mandar audio de voz">
-          <img src="./icon/send.svg" width="24" height="24" alt="icono de microfono">
-        </button>
-        <button class="buttonIcon" aria-label="mandar audio de voz">
-          <img src="./icon/mic.svg" width="24" height="24" alt="icono de microfono">
-        </button>
+        <footer class="actions">
+          <button class="buttonIcon" aria-label="agregar iconos">
+            <img src="./icon/smile.svg" width="24" height="24" alt="icono de carita feliz">
+          </button>
+          <button class="buttonIcon" aria-label="Adjuntar">
+            <img src="./icon/paperclip.svg" width="24" height="24" alt="icono paperclip">
+          </button>
+          <div class="actions-send">
+            <input class="input" type="text" placeholder="Escribe un mensaje">
+            <button class="buttonIcon is-send" aria-label="mandar audio de voz">
+              <img src="./icon/send.svg" width="24" height="24" alt="icono de microfono">
+            </button>
+            <button class="buttonIcon" aria-label="mandar audio de voz">
+              <img src="./icon/mic.svg" width="24" height="24" alt="icono de microfono">
+            </button>
+          </div>
+        </footer>
       </div>
     </div>
   </div>
