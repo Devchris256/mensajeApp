@@ -12,3 +12,21 @@
   flex-grow: 1;
   background-color: var(--panel-background);
 }
+
+
+@media screen and (max-width:900px) {
+  .layout-aside {
+    inline-size: 19.25rem;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .layout-aside {
+    inline-size: 19.25rem;
+    flex-grow: 1;
+  }
+
+  .layout-main {
+    display: none;
+  }
+}

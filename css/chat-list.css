@@ -20,3 +20,9 @@
   padding-block: 1rem;
   display: none;
 }
+
+@media screen and (max-width:425px) {
+  .title {
+    display: block  ;
+  }
+}

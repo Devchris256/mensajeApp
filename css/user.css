@@ -36,3 +36,7 @@
   text-transform: uppercase;
   color: var(--grey);
 }
+
+.user.is-me:hover::after {
+  /* content: 'vjhvj'; */
+}

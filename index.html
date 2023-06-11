@@ -6,6 +6,23 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="./css/style.css">
   <title>MensajeApp</title>
 </head>
@@ -15,11 +32,11 @@
       <div class="aside">
         <header class="header" aria-label="about me">
           <div class="primary">
-            <div class="user">
+            <a href="#" class="user is-me">
               <div class="user-image">
                 <img src="./img/user-me.jpg" width="48" height="48" alt="Tu perfil">
               </div>
-            </div>
+            </a>
           </div>
         </header>
         <h1 class="title">Todos los Chats</h1>
@@ -214,7 +231,7 @@
       </div>
     </div>
     <div class="layout-main">
-      <div role="main" class="dialogue">
+      <div id="main" class="dialogue">
         <header class="header" aria-label="Contact">
           <div class="header-primary">
             <button class="buttonIcon" aria-label="Retroceder">
@@ -307,7 +324,7 @@
             <button class="buttonIcon is-send" aria-label="mandar audio de voz">
               <img src="./icon/send.svg" width="24" height="24" alt="icono de microfono">
             </button>
-            <button class="buttonIcon" aria-label="mandar audio de voz">
+            <button class="buttonIcon" aria-label="mandar mensaje">
               <img src="./icon/mic.svg" width="24" height="24" alt="icono de microfono">
             </button>
           </div>
